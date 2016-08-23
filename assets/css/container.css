@@ -1,0 +1,8 @@
+.container .logo {
+    text-align: center;
+    margin-top: 80px;
+}
+.container .logo img {
+    width: 270px;
+    height: 129px;
+}

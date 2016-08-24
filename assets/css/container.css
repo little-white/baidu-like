@@ -6,3 +6,39 @@
     width: 270px;
     height: 129px;
 }
+.container #form {
+    width: 641px;
+    margin: 22px auto 0;
+    font-size: 0;
+    position: relative;
+}
+
+.container #form input {
+    display: inline-block;
+    width: calc(100% - 106px);
+    border: 1px solid;
+    border-color: #b6b6b6 transparent #b6b6b6 #b6b6b6;
+    outline: none;
+    font-size: 16px;
+    padding: 9px 80px 9px 7px;
+    box-sizing: border-box;
+}
+
+.container #form input:focus {
+    border-color: #4791ff transparent #4791ff #4791ff;
+
+}
+
+#form input:hover {
+    border-color: #999 transparent #999 #999;
+}
+
+.container #form button {
+    width: 100px;
+    background-color: #3385ff;
+    height: 38px;
+    border: 1px solid #2d78f4;
+    color: #fff;
+    font-size: 15px;
+    vertical-align: top;
+}

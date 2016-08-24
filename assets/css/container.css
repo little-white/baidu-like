@@ -42,3 +42,9 @@
     font-size: 15px;
     vertical-align: top;
 }
+
+.container #form button:hover {
+    cursor: pointer;
+    background-color: #317ef3;
+    border-color: #2868c8;
+}

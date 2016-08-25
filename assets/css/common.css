@@ -43,3 +43,12 @@
     cursor: pointer;
     background-position: 0 -20px;
 }
+
+.left {
+    float: left;
+}
+
+.bg-icons {
+    display: inline-block;
+    background: url("../images/bg-icons.png") no-repeat;
+}

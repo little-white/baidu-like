@@ -1,0 +1,83 @@
+.footer {
+    width: 641px;
+    position: absolute;
+    left: 50%;
+    margin-left: -320px;
+    bottom: 60px;
+}
+
+.footer .qr-code,
+.footer .copyright {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.footer .qr-code .mobile,
+.footer .qr-code .nuomi {
+    display: inline-block;
+}
+
+.footer .qr-code .nuomi {
+    margin-left: 33px;
+}
+
+.footer .qr-code .mobile > div,
+.footer .qr-code .nuomi > div {
+    margin: 8px 0 0 10px;
+}
+
+.footer .qr-code .mobile > div div,
+.footer .qr-code .nuomi > div div {
+    line-height: 23px;
+}
+
+.footer .qr-code .mobile > div div:first-child,
+.footer .qr-code .nuomi > div div:first-child {
+    color: #666;
+}
+
+.footer .qr-code .mobile > div div:last-child,
+.footer .qr-code .nuomi > div div:last-child {
+    color: #999;
+}
+
+.footer .copyright {
+    margin-left: 33px;
+}
+
+.footer .copyright div:nth-child(1),
+.footer .copyright div:nth-child(2),
+.footer .copyright div:nth-child(2) {
+    line-height: 22px;
+}
+
+.footer .copyright div:nth-child(1) a,
+.footer .copyright div:nth-child(2) a,
+.footer .copyright div:nth-child(2),
+.footer .copyright div:nth-child(3) {
+    color: #999;
+}
+
+.footer .copyright div:nth-child(1) a:not(:first-child) {
+    margin-left: 25px;
+}
+
+.footer .copyright div:nth-child(2) i {
+    width: 14px;
+    height: 17px;
+    background-position: -600px -96px;
+    vertical-align: middle;
+    margin-left: 5px;
+}
+
+.footer .copyright div:nth-child(3) {
+    margin-top: 4px;
+}
+
+.footer .copyright div:nth-child(3) i {
+    background-position: -623px -96px;
+    width: 14px;
+    height: 17px;
+    vertical-align: middle;
+    margin-right: 5px;
+}

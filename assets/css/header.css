@@ -1,5 +1,4 @@
 .nav {
-    width: 483px;
     float: right;
     margin: 19px 0 5px 0;
 }
@@ -19,8 +18,18 @@
 }
 .nav > ul > li:last-child {
     margin-left: 23px;
+    margin-right: 9px;
 }
-.nav > ul > li:last-child a {
+
+.nav > ul > li:last-child {
+    position: initial;
+}
+
+.nav > ul > li:last-child:hover .products {
+    display: block;
+}
+
+.nav > ul > li:last-child > a {
     background-color: #38f;
     color: #fff;
     text-decoration: none;
@@ -29,6 +38,77 @@
     border-bottom: 1px solid #38f;
 }
 
+.nav > ul > li:last-child .products {
+    display: none;
+    border-left: 1px solid #e7e7e7;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 22px 6px 10px 6px;
+    text-align: center;
+    font-size: 13px;
+    width: 80px;
+    height:100%;
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+}
+
+.nav > ul > li:last-child .products li {
+    box-sizing: border-box;
+}
+
+.nav > ul > li:last-child .products li:first-child {
+    margin-bottom: 10px;
+    cursor: default;
+}
+
+.nav > ul > li:last-child .products li:not(:first-child) {
+    height: 76px;
+    padding-top: 10px;
+    border-top: #f0f0f0 1px solid;
+}
+
+.nav > ul > li:last-child .products li a {
+    color: #666;
+    font-size: 12px;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+.nav > ul > li:last-child .products li a:hover {
+    text-decoration: underline;
+}
+
+.nav > ul > li:last-child .music {
+    width: 40px;
+    height: 36px;
+    margin: 0 auto;
+    background-position: -72px 0;
+}
+
+.nav > ul > li:last-child .image,
+.nav > ul > li:last-child .zhidao,
+.nav > ul > li:last-child .wenku,
+.nav > ul > li:last-child .top {
+    margin: 0 auto;
+    width: 36px;
+    height: 36px;
+}
+
+.nav > ul > li:last-child .image {
+    background-position: -112px 0;
+}
+
+.nav > ul > li:last-child .zhidao {
+    background-position: -36px 0;
+}
+
+.nav > ul > li:last-child .wenku {
+    background-position: -148px 0;
+}
+.nav > ul > li:last-child .top {
+    background-position: -184px 0;
+}
 .nav > ul > li:nth-child(8):hover .setting,
 .nav > ul > li:nth-child(8):hover .shape {
     display: block;

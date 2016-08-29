@@ -52,3 +52,15 @@
     display: inline-block;
     background: url("../images/bg-icons.png") no-repeat;
 }
+
+.shape {
+    display: block;
+    width: 7px;
+    height: 7px;
+    transform: rotate(45deg);
+}
+
+.product-img {
+    display: block;
+    background: url("../images/products.png") no-repeat;
+}
